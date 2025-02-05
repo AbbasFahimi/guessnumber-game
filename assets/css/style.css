@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Sahel;
+  src: url(../fonts/Sahel.eot) format(embedded-opentype),
+    url(../fonts/Sahel.woff2) format(woff2),
+    url(../fonts/Sahel.woff) format(woff);
+}
+*,
+body {
+  font-family: Sahel;
+}
+.container-fluid{
+  height: 100vh;
+  overflow: hidden;
+}
+.game-container{
+  max-width: 400px;
+  margin-top: 150px;
+}
+input{
+  border: none;
+  outline: none;
+
+}
+button{
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+button:hover{
+  background-color: rgb(35, 35, 207)!important;
+}
+
