@@ -3,6 +3,14 @@ $(document).ready(function () {
   let trys = 0;
 
   $("#sendGuess").click(function () {
+
+    let x = $("#guess").val().trim();
+
+    if (x === "") {
+      alert("حدست رو وارد نکردی!");
+      return
+      }
+    
     let userGuess = parseInt($("#guess").val());
     trys++;
     $("#trys").text(trys);
